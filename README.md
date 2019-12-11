@@ -5,6 +5,8 @@
 [![install size](https://packagephobia.now.sh/badge?p=class-validator)](https://packagephobia.now.sh/result?p=class-validator)
 [![Join the chat at https://gitter.im/typestack/class-validator](https://badges.gitter.im/typestack/class-validator.svg)](https://gitter.im/typestack/class-validator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Greenkeeper badge](https://badges.greenkeeper.io/typestack/class-validator.svg)](https://greenkeeper.io/)
 
+> NOTE: This is a fork of the main [https://github.com/typestack/class-validator] that literally just removes the phone number validation to save ~400KB on the bundled library size.
+
 Allows use of decorator and non-decorator based validation.
 Internally uses [validator.js][1] to perform validation.
 Class-validator works on both browser and node.js platforms.
